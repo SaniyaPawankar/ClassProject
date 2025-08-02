@@ -145,6 +145,11 @@ body {
     background-image: url("./media/Images/profile.jpg");
 }
 
+.img-container-3 {
+    background-image: url("./media/Images/img3.avif");
+    border-radius: 20px;
+}
+
 
 .img-container-1,
 .img-container-2 {
@@ -155,6 +160,8 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 20%;
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px black;
 }
 
 
@@ -227,3 +234,11 @@ body {
     background-color: bisque;
     color:white;
 }
+
+#contact-section {
+    background-color: rgba(var(--primaryRGB), 0.1);
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}   
